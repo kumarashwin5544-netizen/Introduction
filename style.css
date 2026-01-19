@@ -1,0 +1,116 @@
+.para, .head{
+  display: inline;
+}  
+
+.branch{
+  margin-top: 15px;
+}  
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    background: linear-gradient(to bottom, #ff9933, #ffffff, #138808);
+    padding: 20px;
+    color: #222;
+}
+
+/* ===== Main Heading ===== */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000080;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* ===== Section Boxes ===== */
+div {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ===== Section Headings ===== */
+h2 {
+    color: #138808;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #ff9933;
+    margin-bottom: 10px;
+}
+
+/* ===== Paragraph ===== */
+p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ===== Branch Boxes ===== */
+.branch {
+    background: #f9f9f9;
+    border-left: 5px solid #000080;
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* ===== Branch Heading ===== */
+.head {
+    color: #000080;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* ===== Branch Paragraph ===== */
+.para {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== About Me Button ===== */
+a {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background: #000080;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background: #ff9933;
+    color: #000;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}          
